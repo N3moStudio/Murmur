@@ -1,0 +1,97 @@
+#sidebar { padding-top: 0; }
+.brand { height: 36px; margin-bottom: 20px; }
+.content:has(.dictation-grid) { max-width: none; }
+.content:has(.dictation-grid) .page-head { margin-bottom: 24px; }
+.shortcut-highlight { font-size: inherit; background: #ffb04f; color: #211e1a; border-color: #211e1a; padding: 2px 6px; }
+.dictation-grid { display: grid; grid-template-columns: minmax(0, 1fr) 250px; gap: 24px; align-items: start; }
+.dictation-hero { position: relative; display: flex; align-items: center; gap: 16px; min-height: 180px; padding: 30px 32px; margin-bottom: 42px; overflow: hidden; }
+.dictation-hero .hero-copy { position: relative; z-index: 1; }
+.dictation-hero h2 { font-size: 28px; }
+.dictation-hero p { margin: 8px 0 24px; }
+.dictation-hero canvas { width: 96px; height: 96px; flex: none; margin-left: auto; opacity: .8; }
+.voice-stats { border: 1px solid var(--line); border-radius: 16px; background: var(--paper); overflow: hidden; }
+.voice-stats .stats { flex-direction: column; gap: 14px; padding: 24px; }
+.voice-stats .stats>div { display: flex; align-items: baseline; gap: 7px; }
+.voice-stats .stats strong { font-family: Georgia, serif; font-size: 28px; font-weight: 400; }
+.voice-stats .stats span { font-size: 15px; color: var(--ink); }
+.voice-tip { border-top: 1px solid var(--line); padding: 26px 24px; font-size: 12px; }
+.voice-tip h3 { font-size: 15px; }
+.dictation-grid .history-row { padding: 18px 16px; border: 1px solid var(--line); border-top: 0; }
+.dictation-grid .date-label + .history-row { border-top: 1px solid var(--line); border-radius: 16px 16px 0 0; }
+@media (max-width: 1100px) { .dictation-grid { grid-template-columns: minmax(0, 1fr); } .voice-stats { display: none; } .dictation-hero canvas { width: 64px; height: 64px; } }
+
+/* Native Windows caption handles minimize, maximize, Snap and close. */
+#titlebar { height: 36px; padding-right: 12px; }
+#sidebar, #main { top: 36px; }
+#theme svg { width: 19px; height: 19px; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+.library-hero { padding: 36px; }
+.library-hero h2 { max-width: 650px; text-wrap: balance; }
+.library-hero p { margin: 18px 0 28px; max-width: 610px; }
+.library-actions { display: flex; flex-direction: column; align-items: flex-start; gap: 18px; }
+.library-examples { color: #eeddd0; font-size: 13px; line-height: 1.6; }
+.tone-settings { margin-top: 12px; }
+.tone-settings > p { max-width: 650px; }
+.tone-settings .setting-row select { flex-shrink: 0; }
+#sidebar { overflow-y: auto; }
+.page-head > .row { flex-wrap: wrap; }
+/* Shared by first-run setup and Settings. Progress has its own full-width row. */
+.model-setup { min-width: 0; margin-top: 24px; }
+.model-download-list { border-top: 1px solid var(--line); }
+.model-download-row { display: grid; grid-template-columns: minmax(0, 1fr) 44px; align-items: start; column-gap: 20px; row-gap: 14px; padding: 22px 0; border-bottom: 1px solid var(--line); }
+.model-details { min-width: 0; align-self: center; }
+.model-details strong { display: block; line-height: 1.5; overflow-wrap: anywhere; }
+.model-meta { margin: 6px 0 0; font-size: 13px; line-height: 1.5; color: var(--muted); }
+.model-download-button, .model-ready { display: grid; place-items: center; width: 44px; height: 44px; min-width: 44px; padding: 10px; border-radius: 10px; }
+.model-download-button { border: 1px solid var(--line); background: var(--sand); }
+.model-ready { color: var(--ink); }
+.model-setup svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; flex-shrink: 0; }
+.model-progress { grid-column: 1 / -1; min-width: 0; font-size: 13px; line-height: 1.6; overflow-wrap: anywhere; }
+.model-progress[hidden] { display: none; }
+.model-progress-heading { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px 16px; }
+.model-progress .busy { display: inline-flex; align-items: center; gap: 8px; min-width: 0; }
+.model-progress .busy canvas { flex-shrink: 0; }
+.download-amount { color: var(--muted); font-variant-numeric: tabular-nums; }
+.model-progress progress { display: block; width: 100%; max-width: 100%; margin: 10px 0 0; }
+.model-progress .error-text { display: block; margin: 0; white-space: normal; overflow-wrap: anywhere; }
+.model-download-footer { display: flex; align-items: center; flex-wrap: wrap; gap: 12px; padding-top: 20px; }
+.model-download-all { display: inline-flex; align-items: center; justify-content: center; gap: 10px; padding: 11px 18px; min-height: 44px; max-width: 100%; }
+.model-download-cancel { min-height: 44px; }
+.onboard-steps { flex-wrap: wrap; row-gap: 10px; }
+@media (max-width: 860px) {
+  #sidebar { display: none; }
+  #main, .collapsed #main { left: 8px; }
+  .sidebar-open #sidebar { display: flex; z-index: 10; width: 216px; background: var(--paper); box-shadow: 8px 12px 24px #0003; }
+  .sidebar-open #main { pointer-events: none; }
+  #main { padding: 28px 24px 60px; border-radius: 18px; }
+  .page-head { flex-wrap: wrap; gap: 16px; margin-bottom: 28px; }
+  .library-hero { padding: 28px; }
+  .library-hero h2 { font-size: 30px; }
+  .choices { grid-template-columns: 1fr; }
+  .choice { min-height: 0; padding: 18px; }
+  .choice.selected { padding: 17px; }
+  .settings-shell { flex-direction: column; }
+  #settings-nav { width: 100%; flex-direction: row; flex-wrap: wrap; padding: 12px 42px 10px 12px; gap: 2px; border-right: 0; border-bottom: 1px solid var(--line); }
+  #settings-nav .eyebrow, #settings-nav footer { display: none; }
+  #settings-nav button { padding: 6px 9px; min-height: 32px; }
+  #settings-content { padding: 24px; }
+  #settings-content h2 { margin-bottom: 20px; }
+}
+@media (max-width: 560px) {
+  #main { padding: 24px 18px 60px; }
+  .library-hero { padding: 24px; }
+  .library-hero h2 { font-size: 28px; }
+  .tabs { gap: 16px; font-size: 13px; }
+  .tabs .tools { gap: 0; }
+  .tabs .icon { width: 28px; }
+  .setting-row { flex-wrap: wrap; gap: 12px; }
+  .setting-row > div:first-child { flex-basis: 100%; }
+  .setting-row select, .setting-row input:not([type=checkbox]) { width: 100%; max-width: none; }
+  .table-row { grid-template-columns: minmax(0, 1fr) auto; gap: 12px; }
+  .table-row > p, .table-row > span:nth-child(2) { grid-column: 1; }
+  .table-row > button { grid-column: 2; grid-row: 1 / span 2; }
+  .dictation-hero { padding: 24px; }
+  .dictation-hero canvas { display: none; }
+  .history-row { gap: 10px; }
+  #dialog-content { padding: 22px; }
+  #toast { max-width: calc(100vw - 32px); right: 16px; bottom: 16px; }
+}

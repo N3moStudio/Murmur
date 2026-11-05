@@ -1,0 +1,27 @@
+// Murmur: UTF-8 marshalling for Windows paths. Upstream source is pinned in PROVENANCE.md.
+/// Copyright (c)  2024.5 by 东风破
+
+using System.Runtime.InteropServices;
+
+namespace SherpaOnnx
+{
+    [StructLayout(LayoutKind.Sequential)]
+    public struct OfflineTransducerModelConfig
+    {
+        public OfflineTransducerModelConfig()
+        {
+            Encoder = "";
+            Decoder = "";
+            Joiner = "";
+        }
+        [MarshalAs(UnmanagedType.LPUTF8Str)]
+        public string Encoder;
+
+        [MarshalAs(UnmanagedType.LPUTF8Str)]
+        public string Decoder;
+
+        [MarshalAs(UnmanagedType.LPUTF8Str)]
+        public string Joiner;
+    }
+
+}

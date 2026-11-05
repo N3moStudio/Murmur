@@ -1,0 +1,76 @@
+{
+  "checked": "2026-11-04",
+  "engine": "sherpa-onnx 2.0.1 native CPU",
+  "engine_revision": "af2d8d81dbfa61c4cea4c568da78f3982edca005",
+  "candidates": [
+    {
+      "name": "Parakeet TDT 0.6B v3 int8",
+      "repository": "csukuangfj/sherpa-onnx-nemo-parakeet-tdt-0.6b-v3-int8",
+      "revision": "2bda32ec70b097a55adaa07d9a7173915b43cc78",
+      "gated": false,
+      "license": "CC-BY-4.0",
+      "files": [
+        {
+          "file": "encoder.int8.onnx",
+          "url": "https://huggingface.co/csukuangfj/sherpa-onnx-nemo-parakeet-tdt-0.6b-v3-int8/resolve/2bda32ec70b097a55adaa07d9a7173915b43cc78/encoder.int8.onnx",
+          "bytes": 652184281,
+          "sha256": "acfc2b4456377e15d04f0243af540b7fe7c992f8d898d751cf134c3a55fd2247",
+          "hash_source": "HF LFS metadata"
+        },
+        {
+          "file": "decoder.int8.onnx",
+          "url": "https://huggingface.co/csukuangfj/sherpa-onnx-nemo-parakeet-tdt-0.6b-v3-int8/resolve/2bda32ec70b097a55adaa07d9a7173915b43cc78/decoder.int8.onnx",
+          "bytes": 11845275,
+          "sha256": "179e50c43d1a9de79c8a24149a2f9bac6eb5981823f2a2ed88d655b24248db4e",
+          "hash_source": "HF LFS metadata"
+        },
+        {
+          "file": "joiner.int8.onnx",
+          "url": "https://huggingface.co/csukuangfj/sherpa-onnx-nemo-parakeet-tdt-0.6b-v3-int8/resolve/2bda32ec70b097a55adaa07d9a7173915b43cc78/joiner.int8.onnx",
+          "bytes": 6355277,
+          "sha256": "3164c13fc2821009440d20fcb5fdc78bff28b4db2f8d0f0b329101719c0948b3",
+          "hash_source": "HF LFS metadata"
+        },
+        {
+          "file": "tokens.txt",
+          "url": "https://huggingface.co/csukuangfj/sherpa-onnx-nemo-parakeet-tdt-0.6b-v3-int8/resolve/2bda32ec70b097a55adaa07d9a7173915b43cc78/tokens.txt",
+          "bytes": 93939,
+          "sha256": "d58544679ea4bc6ac563d1f545eb7d474bd6cfa467f0a6e2c1dc1c7d37e3c35d",
+          "hash_source": "local SHA256 of downloaded token text"
+        }
+      ],
+      "total_bytes": 670478772
+    },
+    {
+      "name": "Moonshine base-en quantized two-file v2",
+      "repository": "csukuangfj2/sherpa-onnx-moonshine-base-en-quantized-2026-02-27",
+      "revision": "8f4d6c58c03d40bcea40043bb7120a878f2bbef6",
+      "gated": false,
+      "license": "MIT (English model only)",
+      "files": [
+        {
+          "file": "encoder_model.ort",
+          "url": "https://huggingface.co/csukuangfj2/sherpa-onnx-moonshine-base-en-quantized-2026-02-27/resolve/8f4d6c58c03d40bcea40043bb7120a878f2bbef6/encoder_model.ort",
+          "bytes": 31326816,
+          "sha256": "7c66495948d0d08ec1af454cd4b5514862ae6511e94712a60e6d83eaec8dc8cf",
+          "hash_source": "HF LFS metadata"
+        },
+        {
+          "file": "decoder_model_merged.ort",
+          "url": "https://huggingface.co/csukuangfj2/sherpa-onnx-moonshine-base-en-quantized-2026-02-27/resolve/8f4d6c58c03d40bcea40043bb7120a878f2bbef6/decoder_model_merged.ort",
+          "bytes": 109424400,
+          "sha256": "d9d7b333af34bc552580576ddcf248a1c6c839e0d3b43b09afb9376ed009899d",
+          "hash_source": "HF LFS metadata"
+        },
+        {
+          "file": "tokens.txt",
+          "url": "https://huggingface.co/csukuangfj2/sherpa-onnx-moonshine-base-en-quantized-2026-02-27/resolve/8f4d6c58c03d40bcea40043bb7120a878f2bbef6/tokens.txt",
+          "bytes": 549350,
+          "sha256": "2870d843e14c1e187bf1913a521562a63b53933814bd7f2145120468f494a049",
+          "hash_source": "local SHA256 of downloaded token text"
+        }
+      ],
+      "total_bytes": 141300566
+    }
+  ]
+}

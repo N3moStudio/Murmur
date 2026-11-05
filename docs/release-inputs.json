@@ -1,0 +1,30 @@
+{
+  "sdk": {
+    "name": "dotnet-sdk-win-arm64.zip",
+    "rid": "win-arm64",
+    "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/10.0.403/dotnet-sdk-10.0.403-win-arm64.zip",
+    "hash": "f78ecd8b48e24fd72ee604687b75f1bbb81505e8343f7d52e4baf9ea32372557eb30e88facaaad195bf2646fcce117fd941e49da0d5bdee1d60d63d836968429"
+  },
+  "inno": {
+    "sha256": "8a5a6711c3766a6e5fb74f280ba0e3551e719ce94538d901fdbd1f8f9920b3f0",
+    "signature": "Valid",
+    "publisher": "CN=Pyrsys B.V., O=Pyrsys B.V., S=Noord-Holland, C=NL"
+  },
+  "vc": [
+    {
+      "file": "vc_redist.arm64.exe",
+      "signature": "Valid",
+      "sha256": "5139E1440C3A20B92153A4DB561C069A0175AAF76C276C3E5B6F56099EDCF4B0"
+    },
+    {
+      "file": "vc_redist.x64.exe",
+      "signature": "Valid",
+      "sha256": "CC0FF0EB1DC3F5188AE6300FAEF32BF5BEEBA4BDD6E8E445A9184072096B713B"
+    }
+  ],
+  "webview": {
+    "file": "MicrosoftEdgeWebview2Setup.exe",
+    "signature": "Valid",
+    "sha256": "CF2F2445FEF0C5C14E372045F84998771EEB8BB01D59BE4AFD00692FA160082E"
+  }
+}

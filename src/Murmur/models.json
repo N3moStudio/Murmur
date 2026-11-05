@@ -1,0 +1,110 @@
+[
+  {
+    "repo": "ggerganov/whisper.cpp",
+    "revision": "5359861c739e955e79d9a303bcbc70fb988958b1",
+    "file": "ggml-base.bin",
+    "bytes": 147951465,
+    "sha256": "60ed5bc3dd14eea856493d334349b405782ddcaf0028d4b5df4088345fba2efe",
+    "url": "https://huggingface.co/ggerganov/whisper.cpp/resolve/5359861c739e955e79d9a303bcbc70fb988958b1/ggml-base.bin",
+    "license": "mit"
+  },
+  {
+    "repo": "ggerganov/whisper.cpp",
+    "revision": "5359861c739e955e79d9a303bcbc70fb988958b1",
+    "file": "ggml-large-v3-turbo-q5_0.bin",
+    "bytes": 574041195,
+    "sha256": "394221709cd5ad1f40c46e6031ca61bce88931e6e088c188294c6d5a55ffa7e2",
+    "url": "https://huggingface.co/ggerganov/whisper.cpp/resolve/5359861c739e955e79d9a303bcbc70fb988958b1/ggml-large-v3-turbo-q5_0.bin",
+    "license": "mit"
+  },
+  {
+    "repo": "ggerganov/whisper.cpp",
+    "revision": "5359861c739e955e79d9a303bcbc70fb988958b1",
+    "file": "ggml-small.bin",
+    "bytes": 487601967,
+    "sha256": "1be3a9b2063867b937e64e2ec7483364a79917e157fa98c5d94b5c1fffea987b",
+    "url": "https://huggingface.co/ggerganov/whisper.cpp/resolve/5359861c739e955e79d9a303bcbc70fb988958b1/ggml-small.bin",
+    "license": "mit"
+  },
+  {
+    "repo": "ggerganov/whisper.cpp",
+    "revision": "5359861c739e955e79d9a303bcbc70fb988958b1",
+    "file": "ggml-tiny.bin",
+    "bytes": 77691713,
+    "sha256": "be07e048e1e599ad46341c8d2a135645097a538221678b7acdd1b1919c6e1b21",
+    "url": "https://huggingface.co/ggerganov/whisper.cpp/resolve/5359861c739e955e79d9a303bcbc70fb988958b1/ggml-tiny.bin",
+    "license": "mit"
+  },
+  {
+    "repo": "Qwen/Qwen2.5-1.5B-Instruct-GGUF",
+    "revision": "91cad51170dc346986eccefdc2dd33a9da36ead9",
+    "file": "qwen2.5-1.5b-instruct-q4_k_m.gguf",
+    "bytes": 1117320736,
+    "sha256": "6a1a2eb6d15622bf3c96857206351ba97e1af16c30d7a74ee38970e434e9407e",
+    "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct-GGUF/resolve/91cad51170dc346986eccefdc2dd33a9da36ead9/qwen2.5-1.5b-instruct-q4_k_m.gguf",
+    "license": "apache-2.0"
+  },
+  {
+    "repo": "ggml-org/whisper-vad",
+    "revision": "9ffd54a1e1ee413ddf265af9913beaf518d1639b",
+    "file": "ggml-silero-v5.1.2.bin",
+    "bytes": 885098,
+    "sha256": "29940d98d42b91fbd05ce489f3ecf7c72f0a42f027e4875919a28fb4c04ea2cf",
+    "url": "https://huggingface.co/ggml-org/whisper-vad/resolve/9ffd54a1e1ee413ddf265af9913beaf518d1639b/ggml-silero-v5.1.2.bin",
+    "license": "mit"
+  },
+  {
+    "repo": "ggml-org/whisper-vad",
+    "revision": "9ffd54a1e1ee413ddf265af9913beaf518d1639b",
+    "file": "ggml-silero-v6.2.0.bin",
+    "bytes": 885098,
+    "sha256": "2aa269b785eeb53a82983a20501ddf7c1d9c48e33ab63a41391ac6c9f7fb6987",
+    "url": "https://huggingface.co/ggml-org/whisper-vad/resolve/9ffd54a1e1ee413ddf265af9913beaf518d1639b/ggml-silero-v6.2.0.bin",
+    "license": "mit"
+  },
+  {
+    "file": "speaker-segmentation.int8.onnx",
+    "bytes": 1540506,
+    "sha256": "d582f4b4c6b48205de7e0643c57df0df5615a3c176189be3fc461e9d18827b5d",
+    "url": "https://huggingface.co/csukuangfj/sherpa-onnx-pyannote-segmentation-3-0/resolve/9403a6902bb58e3d5ae8c7e77c3422de279db2e0/model.int8.onnx",
+    "license": "MIT",
+    "repo": "csukuangfj/sherpa-onnx-pyannote-segmentation-3-0",
+    "revision": "9403a6902bb58e3d5ae8c7e77c3422de279db2e0"
+  },
+  {
+    "file": "3dspeaker_speech_eres2net_base_sv_zh-cn_3dspeaker_16k.onnx",
+    "bytes": 39593761,
+    "sha256": "1a331345f04805badbb495c775a6ddffcdd1a732567d5ec8b3d5749e3c7a5e4b",
+    "url": "https://huggingface.co/csukuangfj/speaker-embedding-models/resolve/0743f301363dec56491a490f6d6cbc9d67f9a3bf/3dspeaker_speech_eres2net_base_sv_zh-cn_3dspeaker_16k.onnx",
+    "license": "Apache-2.0",
+    "repo": "csukuangfj/speaker-embedding-models",
+    "revision": "0743f301363dec56491a490f6d6cbc9d67f9a3bf"
+  },
+  {
+    "repo": "csukuangfj2/sherpa-onnx-moonshine-base-en-quantized-2026-02-27",
+    "revision": "8f4d6c58c03d40bcea40043bb7120a878f2bbef6",
+    "file": "moonshine-base-en/encoder_model.ort",
+    "bytes": 31326816,
+    "sha256": "7c66495948d0d08ec1af454cd4b5514862ae6511e94712a60e6d83eaec8dc8cf",
+    "url": "https://huggingface.co/csukuangfj2/sherpa-onnx-moonshine-base-en-quantized-2026-02-27/resolve/8f4d6c58c03d40bcea40043bb7120a878f2bbef6/encoder_model.ort",
+    "license": "MIT (English weights)"
+  },
+  {
+    "repo": "csukuangfj2/sherpa-onnx-moonshine-base-en-quantized-2026-02-27",
+    "revision": "8f4d6c58c03d40bcea40043bb7120a878f2bbef6",
+    "file": "moonshine-base-en/decoder_model_merged.ort",
+    "bytes": 109424400,
+    "sha256": "d9d7b333af34bc552580576ddcf248a1c6c839e0d3b43b09afb9376ed009899d",
+    "url": "https://huggingface.co/csukuangfj2/sherpa-onnx-moonshine-base-en-quantized-2026-02-27/resolve/8f4d6c58c03d40bcea40043bb7120a878f2bbef6/decoder_model_merged.ort",
+    "license": "MIT (English weights)"
+  },
+  {
+    "repo": "csukuangfj2/sherpa-onnx-moonshine-base-en-quantized-2026-02-27",
+    "revision": "8f4d6c58c03d40bcea40043bb7120a878f2bbef6",
+    "file": "moonshine-base-en/tokens.txt",
+    "bytes": 549350,
+    "sha256": "2870d843e14c1e187bf1913a521562a63b53933814bd7f2145120468f494a049",
+    "url": "https://huggingface.co/csukuangfj2/sherpa-onnx-moonshine-base-en-quantized-2026-02-27/resolve/8f4d6c58c03d40bcea40043bb7120a878f2bbef6/tokens.txt",
+    "license": "MIT (English weights)"
+  }
+]

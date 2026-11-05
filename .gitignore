@@ -1,0 +1,23 @@
+tools/
+node_modules/
+artifacts/
+**/bin/
+**/obj/
+docs/evidence/
+docs/reference-images/
+*.user
+*.partial
+.vs/
+research/
+
+macos/.build/
+macos/.swiftpm/
+
+# Private local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pfx
+*.p12
+*.key
+__pycache__/

@@ -1,0 +1,68 @@
+{
+  "repo": "https://github.com/OpenWhispr/openwhispr",
+  "revision": "d5821a7c88f4c1803b06c51b4580f16c51dd0dbe",
+  "license": "MIT",
+  "modified": false,
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "537c6d5147b0f01add5716e28c0ab80183cd71d2e2b463ff6f6d40a851606dda",
+      "source": "https://github.com/OpenWhispr/openwhispr/blob/d5821a7c88f4c1803b06c51b4580f16c51dd0dbe/LICENSE"
+    },
+    {
+      "path": "src/helpers/toneAppCategories.js",
+      "sha256": "27941b846ace99bf25e5c24c05a2f97c2611e1b0ea4e5a591c60494a8ca43ea3",
+      "source": "https://github.com/OpenWhispr/openwhispr/blob/d5821a7c88f4c1803b06c51b4580f16c51dd0dbe/src/helpers/toneAppCategories.js"
+    },
+    {
+      "path": "src/helpers/selectionEditing.js",
+      "sha256": "f1179ae342fdec7807183ab6efbf812fe50fa4ec08eebc7efc22491d3b0508ff",
+      "source": "https://github.com/OpenWhispr/openwhispr/blob/d5821a7c88f4c1803b06c51b4580f16c51dd0dbe/src/helpers/selectionEditing.js"
+    },
+    {
+      "path": "src/helpers/windowsPasteTarget.js",
+      "sha256": "8c989d9ce45448e0b6ae3b85a7edf13696265531feaf4b59804ff36e85514966",
+      "source": "https://github.com/OpenWhispr/openwhispr/blob/d5821a7c88f4c1803b06c51b4580f16c51dd0dbe/src/helpers/windowsPasteTarget.js"
+    },
+    {
+      "path": "src/config/toneStyle.ts",
+      "sha256": "f291de34f4be4c7e531ecbecdb65f2d05e46ecaf630b42cec7f67398bc796a7a",
+      "source": "https://github.com/OpenWhispr/openwhispr/blob/d5821a7c88f4c1803b06c51b4580f16c51dd0dbe/src/config/toneStyle.ts"
+    },
+    {
+      "path": "src/config/prompts/toneStyle.ts",
+      "sha256": "fdef59868ba3caad3ec769b2cd948150b7d4d41849f97339dd0954f2867341c0",
+      "source": "https://github.com/OpenWhispr/openwhispr/blob/d5821a7c88f4c1803b06c51b4580f16c51dd0dbe/src/config/prompts/toneStyle.ts"
+    },
+    {
+      "path": "src/locales/en/prompts.json",
+      "sha256": "fcf57bdd02aeab0bbfb1f8d03f43380004ab167ffcd968ff03c6aac11859ad6e",
+      "source": "https://github.com/OpenWhispr/openwhispr/blob/d5821a7c88f4c1803b06c51b4580f16c51dd0dbe/src/locales/en/prompts.json"
+    },
+    {
+      "path": "src/utils/cleanupOutput.ts",
+      "sha256": "38b2de0b4119fe25b6d5d49d60159136f7e33a501875ac54dad367891ac3cebc",
+      "source": "https://github.com/OpenWhispr/openwhispr/blob/d5821a7c88f4c1803b06c51b4580f16c51dd0dbe/src/utils/cleanupOutput.ts"
+    },
+    {
+      "path": "test/helpers/toneAppCategories.test.js",
+      "sha256": "4aae81d8f73ed206eafc161378733c5dfa2aa4ae2d41f698ac5c6381a1b24813",
+      "source": "https://github.com/OpenWhispr/openwhispr/blob/d5821a7c88f4c1803b06c51b4580f16c51dd0dbe/test/helpers/toneAppCategories.test.js"
+    },
+    {
+      "path": "test/helpers/selectionEditing.test.js",
+      "sha256": "2d214a012a5835026fc8d5c7e0635b7f00c109fedcd1c4d04ac18292aebc53de",
+      "source": "https://github.com/OpenWhispr/openwhispr/blob/d5821a7c88f4c1803b06c51b4580f16c51dd0dbe/test/helpers/selectionEditing.test.js"
+    },
+    {
+      "path": "test/helpers/windowsPasteTarget.test.js",
+      "sha256": "6f5882397cb8812c45e9f74dc14bdfe2878d634625ed2c0227b7a87af6025233",
+      "source": "https://github.com/OpenWhispr/openwhispr/blob/d5821a7c88f4c1803b06c51b4580f16c51dd0dbe/test/helpers/windowsPasteTarget.test.js"
+    },
+    {
+      "path": "test/utils/cleanupOutput.test.js",
+      "sha256": "fd43b9bb02dc764b6c2fb8ad9215913d2433143581f150e46550d880e919fc02",
+      "source": "https://github.com/OpenWhispr/openwhispr/blob/d5821a7c88f4c1803b06c51b4580f16c51dd0dbe/test/utils/cleanupOutput.test.js"
+    }
+  ]
+}

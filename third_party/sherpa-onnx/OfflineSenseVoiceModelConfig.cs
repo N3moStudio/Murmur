@@ -1,0 +1,25 @@
+// Murmur: UTF-8 marshalling for Windows paths. Upstream source is pinned in PROVENANCE.md.
+/// Copyright (c)  2024  Xiaomi Corporation (authors: Fangjun Kuang)
+
+using System.Runtime.InteropServices;
+
+namespace SherpaOnnx
+{
+    [StructLayout(LayoutKind.Sequential)]
+    public struct OfflineSenseVoiceModelConfig
+    {
+        public OfflineSenseVoiceModelConfig()
+        {
+            Model = "";
+            Language = "";
+            UseInverseTextNormalization = 0;
+        }
+        [MarshalAs(UnmanagedType.LPUTF8Str)]
+        public string Model;
+
+        [MarshalAs(UnmanagedType.LPUTF8Str)]
+        public string Language;
+
+        public int UseInverseTextNormalization;
+    }
+}

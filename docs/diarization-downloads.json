@@ -1,0 +1,111 @@
+{
+  "checked": "2026-11-04",
+  "sherpa_revision": "af2d8d81dbfa61c4cea4c568da78f3982edca005",
+  "packages": [
+    {
+      "id": "org.k2fsa.sherpa.onnx",
+      "version": "2.0.1",
+      "url": "https://api.nuget.org/v3-flatcontainer/org.k2fsa.sherpa.onnx/2.0.1/org.k2fsa.sherpa.onnx.2.0.1.nupkg",
+      "bytes": 211228,
+      "hash_algorithm": "SHA512",
+      "hash_base64": "BZix7jU66Vfk98c/8FkidIy8PX2rOPzMq7fOaWdbyEimYxa+GrXCshnJoRUDkLfSadQlF44xAXexKYQbHSy8FQ==",
+      "hash_source": "NuGet catalog metadata",
+      "license": "Apache-2.0 (sherpa; native dependencies retain their own notices)",
+      "native_entries": []
+    },
+    {
+      "id": "org.k2fsa.sherpa.onnx.runtime.win-arm64",
+      "version": "2.0.1",
+      "url": "https://api.nuget.org/v3-flatcontainer/org.k2fsa.sherpa.onnx.runtime.win-arm64/2.0.1/org.k2fsa.sherpa.onnx.runtime.win-arm64.2.0.1.nupkg",
+      "bytes": 8029645,
+      "hash_algorithm": "SHA512",
+      "hash_base64": "tufHZlbxl1vgP6jXIUjc0gJ+E9SWzcfYm4qXmVLfAEFwlBA6WClH/oApeZ4CzEAw13JMuX0MS7a5S4EwkNyA0w==",
+      "hash_source": "NuGet catalog metadata",
+      "license": "Apache-2.0 (sherpa; native dependencies retain their own notices)",
+      "native_entries": [
+        "runtimes/win-arm64/native/onnxruntime.dll",
+        "runtimes/win-arm64/native/sherpa-onnx-c-api.dll"
+      ]
+    },
+    {
+      "id": "org.k2fsa.sherpa.onnx.runtime.win-x64",
+      "version": "2.0.1",
+      "url": "https://api.nuget.org/v3-flatcontainer/org.k2fsa.sherpa.onnx.runtime.win-x64/2.0.1/org.k2fsa.sherpa.onnx.runtime.win-x64.2.0.1.nupkg",
+      "bytes": 8413229,
+      "hash_algorithm": "SHA512",
+      "hash_base64": "1XDmQv7hThU3S2FYo1ro0sBw3vD0ZPSE+O2FRIDNMsLhHrbd1da2ccA+CFPj+jKRUm/6nF8BeiXy+0zNtr22eQ==",
+      "hash_source": "NuGet catalog metadata",
+      "license": "Apache-2.0 (sherpa; native dependencies retain their own notices)",
+      "native_entries": [
+        "runtimes/win-x64/native/onnxruntime.dll",
+        "runtimes/win-x64/native/sherpa-onnx-c-api.dll"
+      ]
+    }
+  ],
+  "native_archives": [
+    {
+      "name": "sherpa-onnx-v2.0.1-win-arm64-shared-MT-Release-no-tts-lib.tar.bz2",
+      "url": "https://github.com/k2-fsa/sherpa-onnx/releases/download/v2.0.1/sherpa-onnx-v2.0.1-win-arm64-shared-MT-Release-no-tts-lib.tar.bz2",
+      "bytes": 7310187,
+      "sha256": "b3099bec60e6c3958275e90d0803d837cfe3ad6ed08528f29505d713b3a3e1bb",
+      "hash_source": "GitHub release asset digest"
+    },
+    {
+      "name": "sherpa-onnx-v2.0.1-win-x64-shared-MT-Release-no-tts-lib.tar.bz2",
+      "url": "https://github.com/k2-fsa/sherpa-onnx/releases/download/v2.0.1/sherpa-onnx-v2.0.1-win-x64-shared-MT-Release-no-tts-lib.tar.bz2",
+      "bytes": 7655517,
+      "sha256": "21da6a8b92d63ca02ad41dbfc120012343aaaec2e5e02b14819c6b4f38004509",
+      "hash_source": "GitHub release asset digest"
+    }
+  ],
+  "models": [
+    {
+      "repository": "csukuangfj/sherpa-onnx-pyannote-segmentation-3-0",
+      "revision": "9403a6902bb58e3d5ae8c7e77c3422de279db2e0",
+      "file": "model.int8.onnx",
+      "url": "https://huggingface.co/csukuangfj/sherpa-onnx-pyannote-segmentation-3-0/resolve/9403a6902bb58e3d5ae8c7e77c3422de279db2e0/model.int8.onnx",
+      "bytes": 1540506,
+      "sha256": "d582f4b4c6b48205de7e0643c57df0df5615a3c176189be3fc461e9d18827b5d",
+      "hash_source": "Hugging Face LFS metadata, not local file hash",
+      "gated": false,
+      "license": "MIT",
+      "license_source": "https://huggingface.co/csukuangfj/sherpa-onnx-pyannote-segmentation-3-0/blob/9403a6902bb58e3d5ae8c7e77c3422de279db2e0/LICENSE"
+    },
+    {
+      "repository": "csukuangfj/sherpa-onnx-pyannote-segmentation-3-0",
+      "revision": "9403a6902bb58e3d5ae8c7e77c3422de279db2e0",
+      "file": "model.onnx",
+      "url": "https://huggingface.co/csukuangfj/sherpa-onnx-pyannote-segmentation-3-0/resolve/9403a6902bb58e3d5ae8c7e77c3422de279db2e0/model.onnx",
+      "bytes": 5992913,
+      "sha256": "220ad67ca923bef2fa91f2390c786097bf305bceb5e261d4af67b38e938e1079",
+      "hash_source": "Hugging Face LFS metadata, not local file hash",
+      "gated": false,
+      "license": "MIT",
+      "license_source": "https://huggingface.co/csukuangfj/sherpa-onnx-pyannote-segmentation-3-0/blob/9403a6902bb58e3d5ae8c7e77c3422de279db2e0/LICENSE"
+    },
+    {
+      "repository": "csukuangfj/speaker-embedding-models",
+      "revision": "0743f301363dec56491a490f6d6cbc9d67f9a3bf",
+      "file": "3dspeaker_speech_eres2net_base_sv_zh-cn_3dspeaker_16k.onnx",
+      "url": "https://huggingface.co/csukuangfj/speaker-embedding-models/resolve/0743f301363dec56491a490f6d6cbc9d67f9a3bf/3dspeaker_speech_eres2net_base_sv_zh-cn_3dspeaker_16k.onnx",
+      "bytes": 39593761,
+      "sha256": "1a331345f04805badbb495c775a6ddffcdd1a732567d5ec8b3d5749e3c7a5e4b",
+      "hash_source": "Hugging Face LFS metadata, not local file hash",
+      "gated": false,
+      "license": "Apache-2.0",
+      "license_source": "https://modelscope.cn/api/v1/models/iic/speech_eres2net_base_sv_zh-cn_3dspeaker_16k/repo?Revision=v1.0.1&FilePath=README.md"
+    },
+    {
+      "repository": "csukuangfj/speaker-embedding-models",
+      "revision": "0743f301363dec56491a490f6d6cbc9d67f9a3bf",
+      "file": "nemo_en_titanet_large.onnx",
+      "url": "https://huggingface.co/csukuangfj/speaker-embedding-models/resolve/0743f301363dec56491a490f6d6cbc9d67f9a3bf/nemo_en_titanet_large.onnx",
+      "bytes": 101405493,
+      "sha256": "d51abcf31717ef28162f26acb9d44dd4127c3d44c9b8624f699f3425daca8e77",
+      "hash_source": "Hugging Face LFS metadata, not local file hash",
+      "gated": false,
+      "license": "CC-BY-4.0",
+      "license_source": "https://huggingface.co/nvidia/speakerverification_en_titanet_large/blob/0dc382f40121a5fbd34db10a2bb04d826c2be6a8/README.md"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+// Murmur: UTF-8 marshalling for Windows paths. Upstream source is pinned in PROVENANCE.md.
+/// Copyright (c)  2024-2026  Xiaomi Corporation (authors: Fangjun Kuang)
+
+using System.Runtime.InteropServices;
+
+// For Moonshine v1, you need four models:
+//  - preprocessor, encoder, cached_decoder, uncached_decoder
+//
+// For Moonshine v2, you need 2 models:
+//  - encoder, merged_decoder
+namespace SherpaOnnx
+{
+    [StructLayout(LayoutKind.Sequential)]
+    public struct OfflineMoonshineModelConfig
+    {
+        public OfflineMoonshineModelConfig()
+        {
+            Preprocessor = "";
+            Encoder = "";
+            UncachedDecoder = "";
+            CachedDecoder = "";
+            MergedDecoder = "";
+        }
+        [MarshalAs(UnmanagedType.LPUTF8Str)]
+        public string Preprocessor;
+
+        [MarshalAs(UnmanagedType.LPUTF8Str)]
+        public string Encoder;
+
+        [MarshalAs(UnmanagedType.LPUTF8Str)]
+        public string UncachedDecoder;
+
+        [MarshalAs(UnmanagedType.LPUTF8Str)]
+        public string CachedDecoder;
+
+        [MarshalAs(UnmanagedType.LPUTF8Str)]
+        public string MergedDecoder;
+    }
+}

@@ -1,0 +1,182 @@
+{
+  "repository": "https://github.com/k2-fsa/sherpa-onnx",
+  "revision": "af2d8d81dbfa61c4cea4c568da78f3982edca005",
+  "version": "2.0.1",
+  "roots": [
+    "OfflineRecognizer",
+    "OfflineRecognizerConfig",
+    "OfflineStream",
+    "OfflineRecognizerResult"
+  ],
+  "purpose": "Official source dependency closure for offline recognition; no app modifications",
+  "sources": [
+    {
+      "file": "Dll.cs",
+      "source_path": "scripts/dotnet/Dll.cs",
+      "url": "https://raw.githubusercontent.com/k2-fsa/sherpa-onnx/af2d8d81dbfa61c4cea4c568da78f3982edca005/scripts/dotnet/Dll.cs",
+      "sha256": "9ee1fab62e5fe1e76a791d32323f166bf383c050de2d6ba3e8c10008b449d625"
+    },
+    {
+      "file": "FeatureConfig.cs",
+      "source_path": "scripts/dotnet/FeatureConfig.cs",
+      "url": "https://raw.githubusercontent.com/k2-fsa/sherpa-onnx/af2d8d81dbfa61c4cea4c568da78f3982edca005/scripts/dotnet/FeatureConfig.cs",
+      "sha256": "33be1f78066d1052fea0c95e70db510a7ebc3becd08acafa12e151f30766c2c7"
+    },
+    {
+      "file": "HomophoneReplacerConfig.cs",
+      "source_path": "scripts/dotnet/HomophoneReplacerConfig.cs",
+      "url": "https://raw.githubusercontent.com/k2-fsa/sherpa-onnx/af2d8d81dbfa61c4cea4c568da78f3982edca005/scripts/dotnet/HomophoneReplacerConfig.cs",
+      "sha256": "5bf5fba96d61806fa091f4df278d88a90323cbca9c35aa667321dbb743ff9b1f"
+    },
+    {
+      "file": "OfflineCanaryModelConfig.cs",
+      "source_path": "scripts/dotnet/OfflineCanaryModelConfig.cs",
+      "url": "https://raw.githubusercontent.com/k2-fsa/sherpa-onnx/af2d8d81dbfa61c4cea4c568da78f3982edca005/scripts/dotnet/OfflineCanaryModelConfig.cs",
+      "sha256": "902369be5d04493f25affbafac6ec910ed42462cd2ed1a7f3b2ae00feb402071"
+    },
+    {
+      "file": "OfflineCohereTranscribeModelConfig.cs",
+      "source_path": "scripts/dotnet/OfflineCohereTranscribeModelConfig.cs",
+      "url": "https://raw.githubusercontent.com/k2-fsa/sherpa-onnx/af2d8d81dbfa61c4cea4c568da78f3982edca005/scripts/dotnet/OfflineCohereTranscribeModelConfig.cs",
+      "sha256": "6d1bc8ddaf70dafe04fcd4041d524bdea99f1bd17c2b69c4de2814b207517da5"
+    },
+    {
+      "file": "OfflineCtcFstDecoderConfig.cs",
+      "source_path": "scripts/dotnet/OfflineCtcFstDecoderConfig.cs",
+      "url": "https://raw.githubusercontent.com/k2-fsa/sherpa-onnx/af2d8d81dbfa61c4cea4c568da78f3982edca005/scripts/dotnet/OfflineCtcFstDecoderConfig.cs",
+      "sha256": "7cfb4c6c062b0689fe8849e7706580f23617edbb491069261c6f4b2b17c646b6"
+    },
+    {
+      "file": "OfflineDolphinModelConfig.cs",
+      "source_path": "scripts/dotnet/OfflineDolphinModelConfig.cs",
+      "url": "https://raw.githubusercontent.com/k2-fsa/sherpa-onnx/af2d8d81dbfa61c4cea4c568da78f3982edca005/scripts/dotnet/OfflineDolphinModelConfig.cs",
+      "sha256": "7340d39b0b18086f50c2664206463ad197fd200c7bd22043db68ad5cd8c44c6a"
+    },
+    {
+      "file": "OfflineFireRedAsrCtcModel.cs",
+      "source_path": "scripts/dotnet/OfflineFireRedAsrCtcModel.cs",
+      "url": "https://raw.githubusercontent.com/k2-fsa/sherpa-onnx/af2d8d81dbfa61c4cea4c568da78f3982edca005/scripts/dotnet/OfflineFireRedAsrCtcModel.cs",
+      "sha256": "0fe999b51ddd1d3bb055cc00b809625742781d411ccb4bff00b063f39fdea480"
+    },
+    {
+      "file": "OfflineFireRedAsrModelConfig.cs",
+      "source_path": "scripts/dotnet/OfflineFireRedAsrModelConfig.cs",
+      "url": "https://raw.githubusercontent.com/k2-fsa/sherpa-onnx/af2d8d81dbfa61c4cea4c568da78f3982edca005/scripts/dotnet/OfflineFireRedAsrModelConfig.cs",
+      "sha256": "e35818f4d0117af889b82bd1c6ed7f56874ec85078d64f0b4f17d880c8382159"
+    },
+    {
+      "file": "OfflineFunAsrNanoModel.cs",
+      "source_path": "scripts/dotnet/OfflineFunAsrNanoModel.cs",
+      "url": "https://raw.githubusercontent.com/k2-fsa/sherpa-onnx/af2d8d81dbfa61c4cea4c568da78f3982edca005/scripts/dotnet/OfflineFunAsrNanoModel.cs",
+      "sha256": "c712a6d904e6fe778826b3cfe6e9f582a1b4c5ee30698048595145bbd4be045a"
+    },
+    {
+      "file": "OfflineLMConfig.cs",
+      "source_path": "scripts/dotnet/OfflineLMConfig.cs",
+      "url": "https://raw.githubusercontent.com/k2-fsa/sherpa-onnx/af2d8d81dbfa61c4cea4c568da78f3982edca005/scripts/dotnet/OfflineLMConfig.cs",
+      "sha256": "4ea7ff64297ba69f508646f304a8abac8645372161d1755bf327734e95a6024b"
+    },
+    {
+      "file": "OfflineMedAsrCtcModel.cs",
+      "source_path": "scripts/dotnet/OfflineMedAsrCtcModel.cs",
+      "url": "https://raw.githubusercontent.com/k2-fsa/sherpa-onnx/af2d8d81dbfa61c4cea4c568da78f3982edca005/scripts/dotnet/OfflineMedAsrCtcModel.cs",
+      "sha256": "19db79c66e4e21ca81cbbe0b209361bc3dd7cdf1fbbe450e9201b82893ed08c2"
+    },
+    {
+      "file": "OfflineModelConfig.cs",
+      "source_path": "scripts/dotnet/OfflineModelConfig.cs",
+      "url": "https://raw.githubusercontent.com/k2-fsa/sherpa-onnx/af2d8d81dbfa61c4cea4c568da78f3982edca005/scripts/dotnet/OfflineModelConfig.cs",
+      "sha256": "1e0426a761c42ccadb85147bcf8943342d9ea54cb5c96cfba2bd2666e038d405"
+    },
+    {
+      "file": "OfflineMoonshineModelConfig.cs",
+      "source_path": "scripts/dotnet/OfflineMoonshineModelConfig.cs",
+      "url": "https://raw.githubusercontent.com/k2-fsa/sherpa-onnx/af2d8d81dbfa61c4cea4c568da78f3982edca005/scripts/dotnet/OfflineMoonshineModelConfig.cs",
+      "sha256": "0dd988936336b83a18c834eb1575103b55606d57a940f313e013190c19fdaab9"
+    },
+    {
+      "file": "OfflineNemoEncDecCtcModelConfig.cs",
+      "source_path": "scripts/dotnet/OfflineNemoEncDecCtcModelConfig.cs",
+      "url": "https://raw.githubusercontent.com/k2-fsa/sherpa-onnx/af2d8d81dbfa61c4cea4c568da78f3982edca005/scripts/dotnet/OfflineNemoEncDecCtcModelConfig.cs",
+      "sha256": "1c6675f4b9c839675fce179300c61e0fb15fbee2160fa74de73a18fc8b288f24"
+    },
+    {
+      "file": "OfflineOmnilingualAsrCtcModel.cs",
+      "source_path": "scripts/dotnet/OfflineOmnilingualAsrCtcModel.cs",
+      "url": "https://raw.githubusercontent.com/k2-fsa/sherpa-onnx/af2d8d81dbfa61c4cea4c568da78f3982edca005/scripts/dotnet/OfflineOmnilingualAsrCtcModel.cs",
+      "sha256": "1cfec83b36b7c85f1aab84b9482954ccdf91bed96967c40e25e748d590acb426"
+    },
+    {
+      "file": "OfflineParaformerModelConfig.cs",
+      "source_path": "scripts/dotnet/OfflineParaformerModelConfig.cs",
+      "url": "https://raw.githubusercontent.com/k2-fsa/sherpa-onnx/af2d8d81dbfa61c4cea4c568da78f3982edca005/scripts/dotnet/OfflineParaformerModelConfig.cs",
+      "sha256": "dedd4b4567ed5f545ef5451d114c6dd530b71625291d4640973981eb5ec25c0f"
+    },
+    {
+      "file": "OfflineQwen3AsrModelConfig.cs",
+      "source_path": "scripts/dotnet/OfflineQwen3AsrModelConfig.cs",
+      "url": "https://raw.githubusercontent.com/k2-fsa/sherpa-onnx/af2d8d81dbfa61c4cea4c568da78f3982edca005/scripts/dotnet/OfflineQwen3AsrModelConfig.cs",
+      "sha256": "23b5c7a4f9fe32bf04d7216f6ffc92ec3d3e0febac41d10d2acb95c9e6c375de"
+    },
+    {
+      "file": "OfflineRecognizer.cs",
+      "source_path": "scripts/dotnet/OfflineRecognizer.cs",
+      "url": "https://raw.githubusercontent.com/k2-fsa/sherpa-onnx/af2d8d81dbfa61c4cea4c568da78f3982edca005/scripts/dotnet/OfflineRecognizer.cs",
+      "sha256": "fc61cd7f3ab19eb4b82a9cae4ff09eb2a7e27a2c547da10d2d0dd16a5173adc9"
+    },
+    {
+      "file": "OfflineRecognizerConfig.cs",
+      "source_path": "scripts/dotnet/OfflineRecognizerConfig.cs",
+      "url": "https://raw.githubusercontent.com/k2-fsa/sherpa-onnx/af2d8d81dbfa61c4cea4c568da78f3982edca005/scripts/dotnet/OfflineRecognizerConfig.cs",
+      "sha256": "83a5bb30e283bb167cc917037ae7b9a2f87dc0a05b8c62c92b4ce173ae56da73"
+    },
+    {
+      "file": "OfflineRecognizerResult.cs",
+      "source_path": "scripts/dotnet/OfflineRecognizerResult.cs",
+      "url": "https://raw.githubusercontent.com/k2-fsa/sherpa-onnx/af2d8d81dbfa61c4cea4c568da78f3982edca005/scripts/dotnet/OfflineRecognizerResult.cs",
+      "sha256": "56862f786c6d87de4dcdb7cb8f1d7cf1a0f56b5cdf96ae5e69b861eb0bf65ebe"
+    },
+    {
+      "file": "OfflineSenseVoiceModelConfig.cs",
+      "source_path": "scripts/dotnet/OfflineSenseVoiceModelConfig.cs",
+      "url": "https://raw.githubusercontent.com/k2-fsa/sherpa-onnx/af2d8d81dbfa61c4cea4c568da78f3982edca005/scripts/dotnet/OfflineSenseVoiceModelConfig.cs",
+      "sha256": "7833e6a9308a6c39f0c19db9033b4dde58374b3d0a580270392fe0e3f121cb75"
+    },
+    {
+      "file": "OfflineStream.cs",
+      "source_path": "scripts/dotnet/OfflineStream.cs",
+      "url": "https://raw.githubusercontent.com/k2-fsa/sherpa-onnx/af2d8d81dbfa61c4cea4c568da78f3982edca005/scripts/dotnet/OfflineStream.cs",
+      "sha256": "fd4012067a27d235d55443f4a5da3d00a84f0c787517c0f687d7b38618de3610"
+    },
+    {
+      "file": "OfflineTdnnModelConfig.cs",
+      "source_path": "scripts/dotnet/OfflineTdnnModelConfig.cs",
+      "url": "https://raw.githubusercontent.com/k2-fsa/sherpa-onnx/af2d8d81dbfa61c4cea4c568da78f3982edca005/scripts/dotnet/OfflineTdnnModelConfig.cs",
+      "sha256": "65f524ad56da2bb04fa2a253b5c86649a2b46dc3b0b1c857bec7119c3e21b4bd"
+    },
+    {
+      "file": "OfflineTransducerModelConfig.cs",
+      "source_path": "scripts/dotnet/OfflineTransducerModelConfig.cs",
+      "url": "https://raw.githubusercontent.com/k2-fsa/sherpa-onnx/af2d8d81dbfa61c4cea4c568da78f3982edca005/scripts/dotnet/OfflineTransducerModelConfig.cs",
+      "sha256": "ea31067f2a89f02d875a2d564863d2a16a6a3616f3c34b022a11708717d7c5b3"
+    },
+    {
+      "file": "OfflineWenetCtcModelConfig.cs",
+      "source_path": "scripts/dotnet/OfflineWenetCtcModelConfig.cs",
+      "url": "https://raw.githubusercontent.com/k2-fsa/sherpa-onnx/af2d8d81dbfa61c4cea4c568da78f3982edca005/scripts/dotnet/OfflineWenetCtcModelConfig.cs",
+      "sha256": "f1d797766548dd0975cc60fbbd7c980326d600f20590b089c4497a2ab3dc75bb"
+    },
+    {
+      "file": "OfflineWhisperModelConfig.cs",
+      "source_path": "scripts/dotnet/OfflineWhisperModelConfig.cs",
+      "url": "https://raw.githubusercontent.com/k2-fsa/sherpa-onnx/af2d8d81dbfa61c4cea4c568da78f3982edca005/scripts/dotnet/OfflineWhisperModelConfig.cs",
+      "sha256": "6874f97d2399961be5757cd147fceaec1dcbaacb38e89a88a24289993d731eeb"
+    },
+    {
+      "file": "OfflineZipformerCtcModelConfig.cs",
+      "source_path": "scripts/dotnet/OfflineZipformerCtcModelConfig.cs",
+      "url": "https://raw.githubusercontent.com/k2-fsa/sherpa-onnx/af2d8d81dbfa61c4cea4c568da78f3982edca005/scripts/dotnet/OfflineZipformerCtcModelConfig.cs",
+      "sha256": "9e1fef7dbf6f68d400c9f8ba49f6302e6b1583b14071d0b0be89a35d944da64e"
+    }
+  ]
+}

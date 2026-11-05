@@ -1,0 +1,1 @@
+{"name":"murmur-build-tools","private":true,"version":"0.1.3","scripts":{"build:orbs":"esbuild src/Murmur/web/orbs-source.ts --bundle --format=esm --minify --outfile=src/Murmur/web/orbs.js"},"devDependencies":{"esbuild":"0.25.12"}}
